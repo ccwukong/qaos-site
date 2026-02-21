@@ -1,45 +1,99 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>qaos — Open Source AI QA Co-founder</title>
-  <meta name="description" content="qaos helps teams run AI-powered QA test sessions with smart replay, skills, and PostgreSQL-backed test accounts." />
-  <style>
-    :root { --bg:#0b1020; --card:#111831; --text:#e7ecff; --muted:#9fb0e6; --accent:#6ea8fe; }
-    * { box-sizing: border-box; } body { margin:0; font-family: Inter, system-ui, -apple-system, sans-serif; background:var(--bg); color:var(--text); }
-    .wrap { max-width: 920px; margin: 0 auto; padding: 56px 20px; }
-    .card { background: var(--card); border: 1px solid #24305f; border-radius: 16px; padding: 28px; }
-    h1 { margin: 0 0 10px; font-size: 40px; } p { color: var(--muted); line-height: 1.6; }
-    .row { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
-    .btn { display:inline-block; padding:10px 14px; border-radius:10px; text-decoration:none; color:#fff; border:1px solid #3656c9; }
-    .btn.primary { background: var(--accent); color:#0b1020; border-color: var(--accent); font-weight: 700; }
-    .grid { margin-top:24px; display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
-    .tile { border:1px solid #2a3a77; border-radius:12px; padding:14px; background:#0f1730; }
-    .tile h3 { margin:0 0 8px; font-size:16px; } .tile p { margin:0; font-size:14px; }
-    footer { margin-top:22px; color:#8fa2df; font-size:13px; }
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <section class="card">
-      <h1>qaos</h1>
-      <p><strong>An Open Source AI QA Co-founder.</strong> Run test sessions, replay flows, manage DB-backed test accounts, and import CSV test cases with streaming pipelines.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <div class="row">
-        <a class="btn primary" href="https://github.com/ccwukong/qaos">View on GitHub</a>
-        <a class="btn" href="https://github.com/ccwukong/qaos#readme">Read Documentation</a>
-      </div>
+    <title>qaos — Open Source AI QA Co-founder</title>
+    <meta
+      name="description"
+      content="qaos helps teams run AI-powered QA test sessions with smart replay, DB-backed test accounts, and CSV import skills."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://YOUR_DOMAIN/" />
 
-      <div class="grid">
-        <article class="tile"><h3>AI Test Sessions</h3><p>Chat-driven browser testing with SSE updates and screenshots.</p></article>
-        <article class="tile"><h3>Smart Replay</h3><p>Replay curated user prompts as reusable end-to-end tests.</p></article>
-        <article class="tile"><h3>DB Test Accounts</h3><p>Select per-session credentials without exposing secrets to the LLM.</p></article>
-        <article class="tile"><h3>CSV Import Skill</h3><p>Stream large CSV files and batch-insert normalized records into PostgreSQL.</p></article>
-      </div>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="qaos" />
+    <meta property="og:title" content="qaos — Open Source AI QA Co-founder" />
+    <meta
+      property="og:description"
+      content="AI test sessions, smart replay, PostgreSQL-backed test accounts, and reusable QA skills."
+    />
+    <meta property="og:url" content="https://YOUR_DOMAIN/" />
+    <meta property="og:image" content="https://YOUR_DOMAIN/assets/robot-logo.svg" />
 
-      <footer>Apache-2.0 • Built with React Router, Vite, Puppeteer, PostgreSQL, and Drizzle ORM.</footer>
-    </section>
-  </main>
-</body>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="qaos — Open Source AI QA Co-founder" />
+    <meta
+      name="twitter:description"
+      content="AI-powered QA sessions with smart replay and database-first test account management."
+    />
+    <meta name="twitter:image" content="https://YOUR_DOMAIN/assets/robot-logo.svg" />
+
+    <link rel="icon" type="image/svg+xml" href="/assets/robot-logo.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "qaos",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "description": "Open source AI QA co-founder for browser-based testing with smart replay and skills.",
+        "url": "https://YOUR_DOMAIN/",
+        "image": "https://YOUR_DOMAIN/assets/robot-logo.svg",
+        "softwareHelp": "https://github.com/ccwukong/qaos",
+        "license": "https://github.com/ccwukong/qaos/blob/main/LICENSE"
+      }
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <div class="brand">
+          <img src="/assets/robot-logo.svg" alt="qaos robot logo" width="64" height="64" />
+          <div>
+            <strong>qaos</strong>
+            <div>/ˈkeɪ.ɒs/ — Open Source AI QA Co-founder</div>
+          </div>
+        </div>
+
+        <h1>AI-powered QA, built for real product teams.</h1>
+        <p class="subtitle">
+          qaos helps teams run conversational browser testing, replay test flows, manage DB-backed test accounts,
+          and import CSV test cases at scale.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/ccwukong/qaos" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://github.com/ccwukong/qaos#readme" target="_blank" rel="noopener">Documentation</a>
+        </div>
+
+        <div class="features">
+          <article class="feature">
+            <h3>AI Test Sessions</h3>
+            <p>Prompt-driven UI testing with live browser actions and real-time streaming updates.</p>
+          </article>
+          <article class="feature">
+            <h3>Smart Replay</h3>
+            <p>Replay curated sessions into reusable, resilient end-to-end testing flows.</p>
+          </article>
+          <article class="feature">
+            <h3>DB Test Accounts</h3>
+            <p>Select account IDs per session while keeping credential values hidden from the LLM.</p>
+          </article>
+          <article class="feature">
+            <h3>CSV Import Skill</h3>
+            <p>Use streaming pipelines to transform arbitrary CSVs into normalized PostgreSQL test records.</p>
+          </article>
+        </div>
+
+        <footer>
+          Apache-2.0 • React Router • Vite • Puppeteer • PostgreSQL • Drizzle ORM
+        </footer>
+      </section>
+    </main>
+  </body>
 </html>
